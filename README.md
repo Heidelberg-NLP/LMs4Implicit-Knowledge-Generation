@@ -32,6 +32,9 @@ Install transformers
 ## Models to be fine-tuned
 [GPT-2](https://github.com/openai/gpt-2) | [XLNet](https://github.com/zihangdai/xlnet) | [BART](https://github.com/pytorch/fairseq/tree/master/examples/bart)
 
+Our best performing language model BART, finetuned on e-SLNI (without constraints; with concepts as constraints; and with commonsense knowledge paths as constraints), can be downloaded from here:  https://drive.google.com/drive/folders/1FBiBlB_-V-6wgfIjUN_0JUn7VsEXO117
+
+
 ### Prepare training data (exclude the target sentence for test data in each line in case of GPT-2 and XLNet models)
     line = [sentence1, sentence2, concept1, concept2, target sentence]
     
